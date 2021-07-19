@@ -1,3 +1,6 @@
+## 노마드 코더 강의
+https://nomadcoders.co/nestjs-fundamentals/lobby
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
 </p>
