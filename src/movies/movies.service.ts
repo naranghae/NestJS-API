@@ -35,5 +35,10 @@ export class MoviesService {
         const movie = this.getOne(id);
         this.deleteOne(id);
         this.movies.push({ ...movie, ...updateData });
+        //...은 전개연산자로
+        // [a1, a2, ...rest_a] = [1,2,3,4,5,6,7,8] 이라 할 때
+        // a1은 1, a2는 2 그리고 rest_a는 나머지 숫자가 된다.
+        //전개 연산자 뒤로 변수를 입력하면 에러.
+        //좌, 우항이 다른 속성일 경우 에러.
     }
 }
